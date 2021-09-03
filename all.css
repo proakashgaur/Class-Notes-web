@@ -1,0 +1,589 @@
+header h1{
+	color:black;
+	text-align:center;
+	font-family:Comic Sans MS;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:lightblue;
+	
+}
+
+header div
+{
+	margin-left: 38%;
+}
+
+.card
+{
+	width:400px;
+	float:left;
+	margin-left:30px;
+	margin-bottom:30px;
+}
+
+.card h1:hover
+{
+	box-shadow: inset 0 0 5px grey;
+}
+
+.card-top
+{
+	width:100%;
+	background-color:lightblue;
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:60px;
+	color:red;
+}
+
+
+
+
+.bt:hover
+{
+	box-shadow: inset 0 0 5px blue;
+}
+
+.subj
+{
+	/*color:blue;*/
+	margin-left:30px;
+	/*margin-top:30px;*/
+	/*border:2px dotted red;*/
+	/*padding-left:50px;*/
+	/*padding-right:50px;*/
+	/*background-color:#e4e2e2a1;*/
+}
+
+.sub:hover
+{
+	color:red;
+	border:2px dotted blue;
+
+}
+
+.sub hr
+{
+     margin-top: 35px;
+    margin-bottom: 0px;
+}	 
+
+.link
+{
+	border:1px solid black;
+}
+
+.boxs1
+{
+	width:20px;
+	height:20px;
+	background-color:red;
+	border-radius:50px;
+	position:relative;
+	animation-name:ex;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+@keyframes ex
+{
+	0%{left:0px;top:0px;}
+	50%{left:20px;top:20px;}
+	100%{left:0px;top:0px;}
+}
+
+.boxs2
+{
+	width:20px;
+	height:20px;
+	background-color:blue;
+	border-radius:50px;
+	position:relative;
+	animation-name:ex3;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	
+}
+
+@keyframes ex3
+{
+	0%{left:0px;top:0px;}
+	50%{left:20px;top:-20px;}
+	100%{left:0px;top:0px;}
+}
+
+.boxs3
+{
+	width:20px;
+	height:20px;
+	background-color:yellow;
+	border-radius:50px;
+	position:relative;
+	float: right;
+   margin-right: 57%;
+    margin-top: -4.9%;
+	animation-name:ex2;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+@keyframes ex2
+{
+	0%{left:0px;top:0px;}
+	50%{left:-20px;top:20px;}
+	100%{left:0px;top:0px;}
+}
+
+.boxs4
+{
+	width:20px;
+	height:20px;
+	background-color:green;
+	border-radius:50px;
+	position:relative;
+	float: right;
+    margin-right: 57%;
+    margin-top: -2.5%;
+	animation-name:ex1;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+@keyframes ex1
+{
+	0%{left:0px;top:0px;}
+	50%{left:-20px;top:-20px;}
+	100%{left:0px;top:0px;}
+}
+
+
+table{
+	border:1px solid black;
+	border-collapse:collapse;
+	margin-left:auto;margin-right:auto;
+}
+
+th,td
+{
+	border:1px solid black;
+	padding:10px;
+}
+
+tr:nth-child(2n)
+{
+	background-color:#a0a0a0;
+}
+
+tr:hover{
+		background-color:yellow;
+}
+
+
+thead
+{
+	background-color:#ccddee;
+}
+
+tfoot
+{
+	background-color:#ddccee;
+	text-align:center;
+}
+
+
+/* DAA files */
+
+.files p
+{
+	border:1px solid black;
+	text-align:center;
+	padding:20px;
+	float:left;
+	margin-left:30px;
+	margin-bottom:30px;
+	background-color:lightyellow;
+}
+
+
+
+
+.boxs11
+{
+	width:10px;
+	height:10px;
+	margin-left: 256px;
+    margin-top: -51px;
+	background-color:red;
+	border-radius:50px;
+	position:relative;
+	animation-name:exaa;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+@keyframes exaa
+{
+	0%{left:0px;top:0px;}
+	50%{left:10px;top:10px;}
+	100%{left:0px;top:0px;}
+}
+
+.boxsb
+{
+	width:10px;
+	height:10px;
+	margin-left: 256px;
+	background-color:blue;
+	border-radius:50px;
+	position:relative;
+	animation-name:exc;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	
+}
+
+@keyframes exc
+{
+	0%{left:0px;top:0px;}
+	50%{left:10px;top:-10px;}
+	100%{left:0px;top:0px;}
+}
+
+.boxsc
+{
+	width:10px;
+	height:10px;
+	background-color:yellow;
+	border-radius:50px;
+	margin-right: 79.2%;
+    margin-top: -1.5%;
+	position:relative;
+	float: right;
+	animation-name:exb;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+@keyframes exb
+{
+	0%{left:0px;top:0px;}
+	50%{left:-10px;top:10px;}
+	100%{left:0px;top:0px;}
+}
+
+.boxsd
+{
+	width:10px;
+	height:10px;
+	background-color:green;
+	border-radius:50px;
+	position:relative;
+	float: right;
+    margin-right: 79.2%;
+    margin-top: -0.7%;
+	animation-name:exa;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+@keyframes exa
+{
+	0%{left:0px;top:0px;}
+	50%{left:-10px;top:-10px;}
+	100%{left:0px;top:0px;}
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 55px;
+  right: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: red;
+  color:black;
+}
+
+
+.foo
+{
+	margin-top: 10px;
+    padding: 1%;
+    background-color: lightblue;
+    padding-left: 50px;
+	
+}
+
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8a5cdcc2; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4300bbc2; 
+}
+
+
+
+
+.sh
+{
+	 text-decoration:none;
+	 /*width:102%;*/
+	 display: fixed;
+	 margin-bottom:19px;
+	 /*margin-left:-8px;*/
+	 /*position:fixed;*/
+	 border-bottom:55px solid #73d0ef;
+	 border-radius:5px;
+	 background-color:#73d0ef;
+}
+
+.sh a
+{
+	float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.sh a:hover
+{
+	color:red;
+	box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+	background-color:lightblue;
+	border-bottom:2px solid red;
+}
+
+
+.sh2
+{
+	background-color:#73d0ef;
+	padding:10px;
+}
+
+.dropdown-menu
+{
+	padding-left:80px;
+	padding-right:80px;
+	background-color:#73d0ef;
+}
+
+.dropdown-menu a
+{
+	padding:10px;
+}
+
+.dropdown-menu a:hover{
+	box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+	color:red;
+	border-bottom:2px solid red;
+}
+
+
+
+@media only screen and (min-width:850px){
+	.sh2
+	{
+	display:none;
+	}
+}
+
+
+
+@media only screen and (max-width:850px){
+	
+	.sh
+	{
+	display:none;
+	}
+	
+	.boxs1
+	{
+		display:none;
+	}
+	
+	.boxs2
+	{
+		display:none;
+	}
+	
+	.boxs3
+	{
+		display:none;
+	}
+	
+	.boxs4
+	{
+		display:none;
+	}
+	
+	table
+	{
+		margin: 10px;
+	}
+	
+	
+	.img img
+	{
+		width:50px;
+		height:50px;
+	}
+	
+	.card{
+		width:92%;
+		margin:auto;
+		margin-bottom:15px;
+	}
+	
+	.card h1{
+		width:auto;
+		padding:auto;
+	}
+	
+	.card-body{
+		width:100px;
+	}
+	
+	.card-body h6{
+		width:277px;
+	}
+	
+	.card-body h4{
+		width:277px;
+	}
+	
+	.card-body a{
+		width:101px;
+	}
+	
+	.img h2
+	{
+		color:blue;
+	}
+	
+	.img img{
+		width:90%;
+		height:90%;
+		margin-left:10px;
+	}
+	
+	
+	
+	.boxs11
+	{
+		display:none;
+	}
+	
+	.boxsb
+	{
+		display:none;
+	}
+	
+	.boxsc
+	{
+		display:none;
+	}
+	
+	.boxsd
+	{
+	    display:none;
+	}
+	
+	.files .card
+	{
+		margin:4%;
+	}
+	
+	.un
+	{
+	display:none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
